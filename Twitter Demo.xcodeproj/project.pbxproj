@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		08910F951A3FEC3F957A452B /* Pods_Twitter_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DDE19778E744A79CB18177 /* Pods_Twitter_Demo.framework */; };
 		87FD8AC01C7AB252008FF149 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD8ABF1C7AB252008FF149 /* TweetCell.swift */; };
+		CD450EF81C8038E800EBE249 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450EF71C8038E800EBE249 /* DetailsViewController.swift */; };
+		CD450EFA1C825F7600EBE249 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450EF91C825F7600EBE249 /* ComposeViewController.swift */; };
+		CD450EFC1C82653400EBE249 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450EFB1C82653400EBE249 /* ProfileViewController.swift */; };
 		CDE0B8691C796D4E0068E20B /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0B8681C796D4E0068E20B /* TweetsViewController.swift */; };
 		CDF0B2151C790EC8003ED2B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B2141C790EC8003ED2B7 /* AppDelegate.swift */; };
 		CDF0B2171C790EC8003ED2B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B2161C790EC8003ED2B7 /* ViewController.swift */; };
@@ -45,6 +48,9 @@
 		51A782F3024EE48CEDCA4D9B /* Pods-Twitter Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter Demo/Pods-Twitter Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		57DDE19778E744A79CB18177 /* Pods_Twitter_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitter_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD8ABF1C7AB252008FF149 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		CD450EF71C8038E800EBE249 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CD450EF91C825F7600EBE249 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		CD450EFB1C82653400EBE249 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CDE0B8681C796D4E0068E20B /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
 		CDF0B2111C790EC8003ED2B7 /* Twitter Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF0B2141C790EC8003ED2B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +185,9 @@
 				CDF0B2161C790EC8003ED2B7 /* ViewController.swift */,
 				CDF0B2421C79116F003ED2B7 /* LoginViewController.swift */,
 				CDE0B8681C796D4E0068E20B /* TweetsViewController.swift */,
+				CD450EF71C8038E800EBE249 /* DetailsViewController.swift */,
+				CD450EF91C825F7600EBE249 /* ComposeViewController.swift */,
+				CD450EFB1C82653400EBE249 /* ProfileViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -375,8 +384,11 @@
 			files = (
 				CDF0B2481C793950003ED2B7 /* User.swift in Sources */,
 				CDF0B24A1C793959003ED2B7 /* Tweet.swift in Sources */,
+				CD450EF81C8038E800EBE249 /* DetailsViewController.swift in Sources */,
 				CDF0B2431C79116F003ED2B7 /* LoginViewController.swift in Sources */,
 				87FD8AC01C7AB252008FF149 /* TweetCell.swift in Sources */,
+				CD450EFA1C825F7600EBE249 /* ComposeViewController.swift in Sources */,
+				CD450EFC1C82653400EBE249 /* ProfileViewController.swift in Sources */,
 				CDF0B2171C790EC8003ED2B7 /* ViewController.swift in Sources */,
 				CDE0B8691C796D4E0068E20B /* TweetsViewController.swift in Sources */,
 				CDF0B24C1C794671003ED2B7 /* TwitterClient.swift in Sources */,
